@@ -21,6 +21,7 @@
 		F29067A319630A92004E39A4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F290678519630A91004E39A4 /* UIKit.framework */; };
 		F29067AB19630A92004E39A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F29067A919630A92004E39A4 /* InfoPlist.strings */; };
 		F29067AD19630A92004E39A4 /* Class_Testing_GroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F29067AC19630A92004E39A4 /* Class_Testing_GroundTests.m */; };
+		F29067B81963111B004E39A4 /* MBFDog.m in Sources */ = {isa = PBXBuildFile; fileRef = F29067B71963111B004E39A4 /* MBFDog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		F29067A819630A92004E39A4 /* Class Testing GroundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Class Testing GroundTests-Info.plist"; sourceTree = "<group>"; };
 		F29067AA19630A92004E39A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F29067AC19630A92004E39A4 /* Class_Testing_GroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Class_Testing_GroundTests.m; sourceTree = "<group>"; };
+		F29067B61963111B004E39A4 /* MBFDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBFDog.h; sourceTree = "<group>"; };
+		F29067B71963111B004E39A4 /* MBFDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBFDog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				F290679319630A92004E39A4 /* Main.storyboard */,
 				F290679619630A92004E39A4 /* CCViewController.h */,
 				F290679719630A92004E39A4 /* CCViewController.m */,
+				F29067B61963111B004E39A4 /* MBFDog.h */,
+				F29067B71963111B004E39A4 /* MBFDog.m */,
 				F290679919630A92004E39A4 /* Images.xcassets */,
 				F290678819630A91004E39A4 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				F290679219630A91004E39A4 /* CCAppDelegate.m in Sources */,
 				F290678E19630A91004E39A4 /* main.m in Sources */,
+				F29067B81963111B004E39A4 /* MBFDog.m in Sources */,
 				F290679819630A92004E39A4 /* CCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
